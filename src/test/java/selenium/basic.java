@@ -10,7 +10,6 @@ public class basic {
         WebDriver driver=new FirefoxDriver();
         driver.get("https://elearning.lankabangla.com/admin/");
         System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
 
         driver.quit();
 
